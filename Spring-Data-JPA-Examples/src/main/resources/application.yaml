@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    url: ${MYSQL_URL}
+    name: ${MYSQL_NAME}
+    password: ${MYSQL_PASSWORD}
+    username: ${MYSQL_USERNAME}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    show-sql: true
